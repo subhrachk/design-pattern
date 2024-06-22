@@ -8,7 +8,7 @@ import { Right } from './components/Right';
 function App() {
   return (
     <div className="App">
-          <SplitScreen left={Left} right={Right} leftweight={1} rightweight={3} />
+          <SplitScreen left={Left}  right={Right} leftweight={1} rightweight={3} />
     </div>
   );
 }
